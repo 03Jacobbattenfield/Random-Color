@@ -1,0 +1,33 @@
+*{
+    padding:0;
+    margin:0;
+}
+#shell{
+    background-color: black;
+}
+.container { 
+    height: 200px;
+    position: relative;
+    border: 3px solid green; 
+  }
+.center{
+    margin:0;
+    position: absolute;
+    top:45%;
+    left:40%;
+}
+#button{
+    color:white;
+    width:200px;
+    height:50px;
+    background-color:cornflowerblue;
+    border:2px solid white;
+    border-radius: 100px;
+}
+#button:hover{
+    border:2px solid red;
+    background-color: darkcyan;
+}
+#button:active{
+translate:4px 4px; 
+}
